@@ -1,3 +1,4 @@
+import * as $ from 'jquery';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
@@ -13,8 +14,6 @@ import { MaterialModule, MdTabsModule, MdButtonModule, MdCardModule, MdMenuModul
 
 // Custom Components
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
-
-
 
 @NgModule({
   declarations: [
